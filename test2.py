@@ -31,40 +31,15 @@ dag = DAG(
     max_active_runs=1
 )
 
-env = Secret(
-    'env',
-    'TEST',
-    'test_env',
-    'TEST',
+k = KubernetesPodOperator(
+    name="hello-dry-run",
+    image="debian",
+    cmds=["bash", "-cx"],
+    arguments=["echo", "10"],
+    labels={"foo": "bar"},
+    task_id="dry_run_demo",
+    do_xcom_push=True,
+    dag=dag
 )
 
-pod_resources = Resources()
-pod_resources.request_cpu = '1000m'
-pod_resources.request_memory = '2048Mi'
-pod_resources.limit_cpu = '2000m'
-pod_resources.limit_memory = '4096Mi'
-
-
-configmaps = [
-    k8s.V1EnvFromSource(config_map_ref=k8s.V1ConfigMapEnvSource(name='secret')),
-]
-
-start = DummyOperator(task_id="start", dag=dag)
-
-run = KubernetesPodOperator(
-    task_id="kubernetespodoperator",
-    namespace='development',
-    image='test/image',
-    secrets=[
-        env
-    ],
-    image_pull_secrets=[k8s.V1LocalObjectReference('image_credential')],
-    name="job",
-    is_delete_operator_pod=True,
-    get_logs=True,
-    resources=pod_resources,
-    env_from=configmaps,
-    dag=dag,
-)
-
-start >> run
+k.dry_run()
