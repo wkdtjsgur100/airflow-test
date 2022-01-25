@@ -10,6 +10,9 @@ from pandas import json_normalize
 
 import json
 
+default_args = {
+    'start_date': datetime(2021, 1, 1),
+}
 
 with DAG(dag_id='nft-pipeline',
         schedule_interval='@daily',
