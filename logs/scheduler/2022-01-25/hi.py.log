@@ -1,0 +1,112 @@
+[2022-01-25 23:18:02,500] {processor.py:163} INFO - Started process (PID=19832) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:18:02,500] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:18:02,501] {logging_mixin.py:109} INFO - [2022-01-25 23:18:02,501] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:18:03,076] {logging_mixin.py:109} INFO - [2022-01-25 23:18:03,076] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:18:03,076] {logging_mixin.py:109} INFO - [2022-01-25 23:18:03,076] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:18:03,274] {logging_mixin.py:109} INFO - [2022-01-25 23:18:03,272] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:18:03,294] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:18:03,297] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.798 seconds
+[2022-01-25 23:19:34,995] {processor.py:163} INFO - Started process (PID=19875) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:19:34,995] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:19:34,996] {logging_mixin.py:109} INFO - [2022-01-25 23:19:34,996] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:19:35,532] {logging_mixin.py:109} INFO - [2022-01-25 23:19:35,532] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:19:35,532] {logging_mixin.py:109} INFO - [2022-01-25 23:19:35,532] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:19:35,780] {logging_mixin.py:109} INFO - [2022-01-25 23:19:35,778] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:19:35,804] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:19:35,809] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.814 seconds
+[2022-01-25 23:21:04,589] {processor.py:163} INFO - Started process (PID=19916) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:21:04,589] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:21:04,590] {logging_mixin.py:109} INFO - [2022-01-25 23:21:04,590] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:21:04,952] {logging_mixin.py:109} INFO - [2022-01-25 23:21:04,952] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:21:04,952] {logging_mixin.py:109} INFO - [2022-01-25 23:21:04,952] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:21:05,087] {logging_mixin.py:109} INFO - [2022-01-25 23:21:05,086] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:21:05,106] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:21:05,109] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.521 seconds
+[2022-01-25 23:22:42,416] {processor.py:163} INFO - Started process (PID=19970) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:22:42,417] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:22:42,417] {logging_mixin.py:109} INFO - [2022-01-25 23:22:42,417] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:22:42,987] {logging_mixin.py:109} INFO - [2022-01-25 23:22:42,987] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:22:42,987] {logging_mixin.py:109} INFO - [2022-01-25 23:22:42,987] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:22:43,202] {logging_mixin.py:109} INFO - [2022-01-25 23:22:43,201] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:22:43,239] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:22:43,245] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.830 seconds
+[2022-01-25 23:24:13,917] {processor.py:163} INFO - Started process (PID=20017) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:24:13,918] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:24:13,918] {logging_mixin.py:109} INFO - [2022-01-25 23:24:13,918] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:24:14,426] {logging_mixin.py:109} INFO - [2022-01-25 23:24:14,426] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:24:14,426] {logging_mixin.py:109} INFO - [2022-01-25 23:24:14,426] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:24:14,623] {logging_mixin.py:109} INFO - [2022-01-25 23:24:14,622] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:24:14,639] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:24:14,643] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.726 seconds
+[2022-01-25 23:25:43,886] {processor.py:163} INFO - Started process (PID=20061) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:25:43,886] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:25:43,886] {logging_mixin.py:109} INFO - [2022-01-25 23:25:43,886] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:25:44,424] {logging_mixin.py:109} INFO - [2022-01-25 23:25:44,423] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:25:44,424] {logging_mixin.py:109} INFO - [2022-01-25 23:25:44,424] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:25:44,636] {logging_mixin.py:109} INFO - [2022-01-25 23:25:44,634] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:25:44,653] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:25:44,657] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.771 seconds
+[2022-01-25 23:27:14,955] {processor.py:163} INFO - Started process (PID=20136) to work on /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:27:14,955] {processor.py:642} INFO - Processing file /Users/chang/airflow/dags/hi.py for tasks to queue
+[2022-01-25 23:27:14,955] {logging_mixin.py:109} INFO - [2022-01-25 23:27:14,955] {dagbag.py:500} INFO - Filling up the DagBag from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:27:15,501] {logging_mixin.py:109} INFO - [2022-01-25 23:27:15,501] {utils.py:145} INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2022-01-25 23:27:15,501] {logging_mixin.py:109} INFO - [2022-01-25 23:27:15,501] {utils.py:157} INFO - NumExpr defaulting to 8 threads.
+[2022-01-25 23:27:15,711] {logging_mixin.py:109} INFO - [2022-01-25 23:27:15,710] {dagbag.py:334} ERROR - Failed to import: /Users/chang/airflow/dags/hi.py
+Traceback (most recent call last):
+  File "/Users/chang/opt/anaconda3/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/chang/airflow/dags/hi.py", line 16, in <module>
+    default_args=default_args,
+NameError: name 'default_args' is not defined
+[2022-01-25 23:27:15,730] {processor.py:656} WARNING - No viable dags retrieved from /Users/chang/airflow/dags/hi.py
+[2022-01-25 23:27:15,734] {processor.py:171} INFO - Processing /Users/chang/airflow/dags/hi.py took 0.780 seconds
